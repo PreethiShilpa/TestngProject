@@ -203,7 +203,11 @@ public class LoginPagePom extends BaseClass{
 	public WebElement getEmailPhone() {
 		return emailPhone;
 	}
+	@FindBy(how = How.ID, using = "email")
+	private WebElement abc;
+	public WebElement getabc() {
+		return abc;
 
-}
+}}
 
 
