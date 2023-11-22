@@ -203,7 +203,9 @@ public class LoginPagePom extends BaseClass{
 	public WebElement getEmailPhone() {
 		return emailPhone;
 	}
-
+    private void sysout() {
+		System.out.println("QA Work");
+	}
 }
 
 
